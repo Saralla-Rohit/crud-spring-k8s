@@ -9,12 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javatechie</groupId>
-	<artifactId>springboot-crud-k8s-example</artifactId>
+	<artifactId>springboot-crud-k8s</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-crud-k8s-example</name>
+	<packaging>war</packaging>
+	<name>springboot-crud-k8s</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
